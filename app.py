@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Helper function to connect to the SQLite database
 def get_db_connection():
-    conn = sqlite3.connect('db_univ_7.db')
+    conn = sqlite3.connect('db_univ7.db')
     conn.row_factory = sqlite3.Row
     return conn
 
